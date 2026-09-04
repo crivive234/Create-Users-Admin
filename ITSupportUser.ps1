@@ -8,7 +8,7 @@
     Target user name. Default: "itsupport".
 .PARAMETER Password
     User password. If not provided and User is "itsupport", the default password
-    "ColombiaIT2026!!" is used. For any other user, it is mandatory.
+    "ColombiaIT2025!!" is used. For any other user, it is mandatory.
 .PARAMETER UnlockOnly
     If specified, only unlocks the user account (no create/update).
 .PARAMETER Silent
@@ -16,7 +16,7 @@
 .PARAMETER Help
     Displays this help message.
 .EXAMPLE
-    .\ITSupportUser.ps1 -User yubico -Password "Thanksgiving2026*"
+    .\ITSupportUser.ps1 -User yubico -Password "Thanksgiving2025*"
     Creates or updates user "yubico" with the given password.
 .EXAMPLE
     .\ITSupportUser.ps1 -UnlockOnly -Silent
